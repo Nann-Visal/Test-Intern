@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.box-navbar{
+    position: relative;
+    display: block;
+    width: 100%;
+    height: 70px;
+    background-color: aqua;
+}
+.box-navbar .row img{
+    float: left;
+    margin-left: 150px;
+    width: 250px;
+    height: 100%;
+    position: absolute;object-fit: cover;
+}
+.box-navbar .row div ul {
+    position: absolute;
+    margin-top: 25%;
+    list-style: none;
+}
